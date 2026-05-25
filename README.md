@@ -1,1 +1,1 @@
-Traditinal RAG PipeLine
+Traditional RAG PipeLine
