@@ -1,0 +1,65 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and datasets (ignore large raw data)
+/data/
+/datasets/
+# If you keep smaller sample data tracked, remove the above lines
+
+# Model weights and checkpoints
+*.ckpt
+*.pth
+*.pt
+*.bin
+saved_model/
+checkpoints/
+
+# Caches, experiment tracking and hubs
+.cache/
+mlruns/
+runs/
+.huggingface/
+
+# Logs
+logs/
+*.log
+
+# Secrets and keys
+.env
+.secrets
+*.key
+*.pem
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Archives
+*.zip
+*.tar.gz
+*.whl
+*.egg
+
